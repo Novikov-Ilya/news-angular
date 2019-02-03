@@ -1,0 +1,21 @@
+<div class="tools">
+  <mat-toolbar>
+    <mat-form-field>
+      <mat-select placeholder="Select source">
+        <mat-option value="source.id" *ngFor="let source of allSources">{{
+          source.name
+        }}</mat-option>
+      </mat-select>
+    </mat-form-field>
+    <div class="tools-panel-search-box">
+      <mat-form-field class="example-full-width">
+        <input matInput placeholder="Search" />
+      </mat-form-field>
+      <div>
+        <button mat-stroked-button>Filer</button>
+      </div>
+    </div>
+    <mat-checkbox color="primary">Only created by me</mat-checkbox>
+    <button mat-stroked-button>Add article</button>
+  </mat-toolbar>
+</div>

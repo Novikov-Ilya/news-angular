@@ -1,0 +1,136 @@
+{
+    "status": "ok",
+    "totalResults": 10,
+    "articles": [
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "US 'mobilises' aid for Venezuela",
+            "description": "The US is sending humanitarian aid following a request from self-proclaimed president Juan Guaidó.",
+            "url": "http://www.bbc.co.uk/news/world-latin-america-47109380",
+            "urlToImage": "https://ichef.bbci.co.uk/images/ic/1024x576/p06zvwf1.jpg",
+            "publishedAt": "2019-02-03T15:08:22Z",
+            "content": "Media captionThousands have called for President Maduro to go but others support him\r\nThe US says it is sending aid to crisis-hit Venezuela following a request from Juan Guaidó, the opposition leader who has declared himself interim president.\r\nMr Guaidó's mo… [+2705 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "Addis Ababa goes traffic free for a day",
+            "description": "The Ethiopian capital marks Car Free Day to promote a healthy lifestyle and fight air pollution.",
+            "url": "http://www.bbc.co.uk/news/world-africa-47107327",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/1111C/production/_105461996_mediaitem105461995.jpg",
+            "publishedAt": "2019-02-03T12:53:51Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "Australian city braces as floodgates open",
+            "description": "Thousands of people in the north-eastern state of Queensland are warned of \"unprecedented flooding\".",
+            "url": "http://www.bbc.co.uk/news/world-australia-47100658",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/7BE4/production/_105461713_mediaitem105461690.jpg",
+            "publishedAt": "2019-02-03T11:25:56Z",
+            "content": "Image copyrightEPAImage caption\r\n Townsville has received more than a metre of rain in just a week\r\nThousands of residents in and around the Australian city of Townsville have been warned of \"unprecedented flooding\" after dam gates were fully opened on Sunday… [+1163 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "Anger at power and heat failure at NY jail",
+            "description": "Many inmates at a federal prison in Brooklyn have been stuck in dark, freezing cells for days.",
+            "url": "http://www.bbc.co.uk/news/world-us-canada-47107326",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/1C30/production/_105461270_052068856-1.jpg",
+            "publishedAt": "2019-02-03T10:49:55Z",
+            "content": "Image copyrightReutersImage caption\r\n The protesters included relatives of inmates who have not heard from them in days\r\nFriends and relatives of inmates stuck in cells without power or heat at a prison in New York have held a protest against their detention … [+1485 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "WW1 grenade found in potato shipment",
+            "description": "The device was found among a delivery of potatoes from France sent to a crisp factory in Hong Kong.",
+            "url": "http://www.bbc.co.uk/news/world-asia-china-47107609",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/32D8/production/_105461031_hi052073606.jpg",
+            "publishedAt": "2019-02-03T10:13:37Z",
+            "content": "Image copyrightGetty ImagesImage caption\r\n The grenade is believed to have been dug up accidentally in France\r\nA World War One-era German hand grenade has been found among a delivery of potatoes shipped from France to a crisp factory in Hong Kong, police say.… [+1144 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "Millennials' pay 'scarred' by bank crisis",
+            "description": "Analysis suggests workers in their 30s have been hardest hit by the effects of the 2008 financial crisis.",
+            "url": "http://www.bbc.co.uk/news/business-47106711",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/102F7/production/_105459266_hi037894274.jpg",
+            "publishedAt": "2019-02-03T05:15:31Z",
+            "content": "Pay for workers in their 30s is still 7% below the level at which it peaked before the 2008 banking crisis, research has suggested.\r\nThe Resolution Foundation think tank said people who were in their 20s at the height of the recession a decade ago were worst … [+1639 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "India protests at US fake university sting",
+            "description": "Dozens of students were arrested for enrolling at a fake campus set up by US immigration officials.",
+            "url": "http://www.bbc.co.uk/news/world-asia-india-47106199",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/9399/production/_105458773_farmington_uni.jpg",
+            "publishedAt": "2019-02-03T00:58:30Z",
+            "content": "Image copyrightUS GovtImage caption\r\n The website for the fake university has since been closed by government officials\r\nIndia has made a diplomatic protest to the US after 129 Indian students were arrested for enrolling in a fake university.\r\nThe University … [+2868 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "Did Finland's free money experiment work?",
+            "description": "The experiment saw 2,000 people paid €560 (£490) a month, instead of their unemployment benefit.",
+            "url": "http://www.bbc.co.uk/news/world-europe-47092727",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/1286B/production/_105438857_p06zrp42.jpg",
+            "publishedAt": "2019-02-03T00:41:04Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "Racist picture US governor urged to quit",
+            "description": "Virginia's Ralph Northam appeared in a yearbook photo of a man in blackface and another in a KKK robe.",
+            "url": "http://www.bbc.co.uk/news/world-us-canada-47102614",
+            "urlToImage": "https://ichef.bbci.co.uk/images/ic/1024x576/p06zszvj.jpg",
+            "publishedAt": "2019-02-02T15:34:53Z",
+            "content": "Media captionVirginia governor says sorry for racist photo\r\nTop US Democrats have called on Virginia Governor Ralph Northam to resign, after his 1984 student yearbook page emerged showing a racist photo. \r\nFormer Vice-President Joe Biden joined a chorus of co… [+4382 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC Sport",
+            "title": "Super Bowl 53: All you need to know - including why most Americans are rooting for the Rams",
+            "description": "Tom Brady can clinch another NFL record at Super Bowl 53, but most in the United States favour the Los Angeles Rams over the New England Patriots.",
+            "url": "http://www.bbc.co.uk/sport/american-football/46978131",
+            "urlToImage": "https://ichef.bbci.co.uk/onesport/cps/624/cpsprodpb/BC19/production/_105435184_gettyimages-1091593268.jpg",
+            "publishedAt": "2019-02-02T09:34:10Z",
+            "content": "These two fans will be cheering on Tom Brady and the New England Patriots on Sunday\r\nSuper Bowl 53: Los Angeles Rams v New England Patriots\r\nDate: Sunday, 3 February Time: 23:30 GMT\r\nVenue: Mercedes-Benz Stadium, Atlanta, Georgia\r\nCoverage: Watch live on BBC … [+11361 chars]"
+        }
+    ]
+}

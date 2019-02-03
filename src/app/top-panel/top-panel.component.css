@@ -1,0 +1,10 @@
+.top-panel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo img {
+    height: 25px;
+    width: 25px;
+}

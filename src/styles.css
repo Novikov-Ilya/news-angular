@@ -1,1 +1,8 @@
-/* You can add global styles to this file, and also import other style files */
+@import '@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+.root {
+    width: 1170px;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+}

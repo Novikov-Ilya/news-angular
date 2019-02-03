@@ -1,0 +1,11 @@
+.mat-toolbar-single-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.tools-panel-search-box {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
