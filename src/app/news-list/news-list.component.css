@@ -1,0 +1,21 @@
+.news-list {
+    margin-top: 15px;
+}
+
+.news-item {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+    padding: 25px;
+}
+
+.news-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.news-image img, .news-image {
+    height: 100px;
+    width: 150px;
+    margin-right: 15px;
+}
