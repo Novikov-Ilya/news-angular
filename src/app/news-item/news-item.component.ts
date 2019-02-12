@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NewsItemComponent implements OnInit {
 
-  public news = require('../../news.json');
+  //public news = require('../../news.json');
 
   constructor() { }
 

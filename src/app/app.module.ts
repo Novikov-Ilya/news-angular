@@ -5,6 +5,7 @@ import {MatButtonModule, MatCheckboxModule} from '@angular/material';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatSelectModule} from '@angular/material/select';
 import {MatInputModule} from '@angular/material/input';
+import {MatCardModule} from '@angular/material/card';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -36,7 +37,8 @@ const appRuoutes: Routes = [
     MatCheckboxModule,
     MatToolbarModule,
     MatSelectModule,
-    MatInputModule
+    MatInputModule,
+    MatCardModule
   ],
   exports: [
     MatButtonModule,

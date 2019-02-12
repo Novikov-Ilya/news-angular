@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-tools',
@@ -10,12 +10,19 @@ export class ToolsComponent implements OnInit {
   public url: string = 'https://newsapi.org/v2/sources?apiKey=';
 
   public allSources:any[];
+  public selectedLevel: any;
 
   async getAllSources(sourcesUrl: string) {
     let response = await fetch(sourcesUrl);
     let responseJson = await response.json();
     this.allSources = responseJson.sources;
     
+  }
+
+  @Output() onChanged = new EventEmitter<string>();
+
+  getListItem(item: any) {
+    this.onChanged.emit(item);
   }
 
   constructor() { }

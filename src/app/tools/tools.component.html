@@ -2,7 +2,7 @@
   <mat-toolbar>
     <mat-form-field>
       <mat-select placeholder="Select source">
-        <mat-option value="source.id" *ngFor="let source of allSources">{{
+        <mat-option value={{source.id}} *ngFor="let source of allSources" (click)="getListItem(source.id)">{{
           source.name
         }}</mat-option>
       </mat-select>

@@ -1,1 +1,20 @@
-<app-news-item></app-news-item>
+<app-tools (onChanged)="onChanged($event)"></app-tools>
+<mat-card class="news-item" *ngFor="let article of allArticles">
+    <div class="news-image">
+        <img mat-card-image src="{{article.urlToImage}}" alt="{{article.title}}">
+    </div>
+    <div class="news-info">
+        <div class="news-title">
+            <mat-card-title>{{article.title}}</mat-card-title>
+        </div>
+        <mat-card-content class="news-description">
+            {{article.description}}
+        </mat-card-content>
+        <mat-card-actions>
+                <button mat-stroked-button>Details</button>
+        </mat-card-actions>
+        <mat-card-footer>
+            Published: {{article.publishedAt.toString()}}
+        </mat-card-footer>
+    </div>
+</mat-card>
