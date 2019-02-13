@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-news-list',
@@ -11,10 +12,15 @@ export class NewsListComponent implements OnInit {
   public allArticles: any[];
   public selectedSource: string = 'abc-news';
 
+  public idArticle: any[];
+
   async getNews (source: string) {
     const responce = await fetch(this.url + source + '&apiKey=' + this.apiKey);
     const responseJson = await responce.json();
     this.allArticles = responseJson.articles;
+    this.allArticles.forEach(element => {
+      element.idUrl = element.title.replace(/[^A-Za-z0-9]/g, '');
+    });
   }
 
   onChanged(item: any) {
@@ -22,7 +28,7 @@ export class NewsListComponent implements OnInit {
     this.getNews(this.selectedSource);
   }
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit() {
     this.getNews(this.selectedSource);

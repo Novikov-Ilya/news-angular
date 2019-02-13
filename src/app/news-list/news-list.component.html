@@ -18,7 +18,9 @@
       </mat-card-content>
     </div>
     <mat-card-actions>
-      <button mat-stroked-button>Details</button>
+      <a href="news/{{article.idUrl}}">
+        <span class="mat-button-wrapper">Read more...</span>
+      </a>
     </mat-card-actions>
     <mat-card-footer>
       Published: {{ article.publishedAt.slice(0, -10) }}
