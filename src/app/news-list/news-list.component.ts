@@ -12,15 +12,12 @@ export class NewsListComponent implements OnInit {
   public allArticles: any[];
   public selectedSource: string = 'abc-news';
 
-  public idArticle: any[];
-
   async getNews (source: string) {
     const responce = await fetch(this.url + source + '&apiKey=' + this.apiKey);
     const responseJson = await responce.json();
     this.allArticles = responseJson.articles;
     let idCounter: number = 0;
     this.allArticles.forEach(element => {
-      //element.idUrl = element.title.replace(/[^A-Za-z0-9]/g, '');
       element.idUrl = idCounter;
       idCounter++;
     });

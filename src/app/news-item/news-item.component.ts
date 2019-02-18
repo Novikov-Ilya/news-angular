@@ -21,9 +21,6 @@ export class NewsItemComponent implements OnInit {
     const responce = await fetch(this.url + source + '&apiKey=' + this.apiKey);
     const responseJson = await responce.json();
     this.allArticles = responseJson.articles;
-    // this.allArticles.forEach(element => {
-    //   element.idUrl = element.title.replace(/[^A-Za-z0-9]/g, '');
-    // });
   }
 
   getSelectedNews() {

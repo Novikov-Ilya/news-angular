@@ -19,10 +19,10 @@ export class ToolsComponent implements OnInit {
     
   }
 
-  @Output() onChanged = new EventEmitter<string>();
+  @Output() selectSource = new EventEmitter<string>();
 
   getListItem(item: any) {
-    this.onChanged.emit(item);
+    this.selectSource.emit(item);
   }
 
   constructor() { }

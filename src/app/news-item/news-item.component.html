@@ -1,6 +1,6 @@
 <mat-card>
     <div class="news-item-image">
-        <img mat-card-image src="{{allArticles[id].urlToImage}}" alt="allArticles[id].title">
+        <img mat-card-image src="{{allArticles[id].urlToImage}}" alt="{{allArticles[id].title}}">
     </div>
     <div class="news-item-text-content">
         <mat-card-title>{{allArticles[id].title}}</mat-card-title>
@@ -10,7 +10,6 @@
         Posted at: {{allArticles[id].publishedAt}}
         <mat-card-actions>
             <button mat-raised-button>Edit...</button>
-
         </mat-card-actions>
     </mat-card-footer>
 </mat-card>
