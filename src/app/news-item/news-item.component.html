@@ -1,2 +1,16 @@
-<!-- <div *ngFor="let newsItem of news.articles">{{newsItem.title}}</div> -->
-<p>{{id}}</p>
+<mat-card>
+    <div class="news-item-image">
+        <img mat-card-image src="{{allArticles[id].urlToImage}}" alt="allArticles[id].title">
+    </div>
+    <div class="news-item-text-content">
+        <mat-card-title>{{allArticles[id].title}}</mat-card-title>
+        <mat-card-content>{{allArticles[id].description}}</mat-card-content>
+    </div>
+    <mat-card-footer>
+        Posted at: {{allArticles[id].publishedAt}}
+        <mat-card-actions>
+            <button mat-raised-button>Edit...</button>
+
+        </mat-card-actions>
+    </mat-card-footer>
+</mat-card>
