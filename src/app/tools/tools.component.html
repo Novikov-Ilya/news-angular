@@ -9,10 +9,10 @@
     </mat-form-field>
     <div class="tools-panel-search-box">
       <mat-form-field class="example-full-width">
-        <input matInput placeholder="Search" (keyup)="search($event)"/>
+        <input #box matInput placeholder="Search"/>
       </mat-form-field>
       <div>
-        <button mat-stroked-button>Filter</button>
+        <button mat-stroked-button (click)="search(box.value)">Filter</button>
       </div>
     </div>
     <mat-checkbox color="primary">Only created by me</mat-checkbox>

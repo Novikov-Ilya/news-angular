@@ -10,7 +10,7 @@ export class NewsListComponent implements OnInit {
   public apiKey: string = '7a67c40c89ea4952830387b8f9e5090e';
   public url: string = 'https://newsapi.org/v2/everything?q=';
   public allArticles: any[];
-  public selectedSource: string = 'abc-news';
+  public selectedSource: string = undefined;
 
   async getNews (source: string) {
     const responce = await fetch(this.url + source + '&apiKey=' + this.apiKey);

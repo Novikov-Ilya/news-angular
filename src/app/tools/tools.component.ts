@@ -12,6 +12,7 @@ export class ToolsComponent implements OnInit {
   public allSources:any[];
   public selectedLevel: any;
   public filteredArticles: any[] = [];
+  public currentSource: string;
 
   async getAllSources(sourcesUrl: string) {
     let response = await fetch(sourcesUrl);
@@ -27,15 +28,23 @@ export class ToolsComponent implements OnInit {
 
   getListItem(item: any) {
     this.selectSource.emit(item);
+    this.currentSource = item;
   }
 
-  search(event: any) {
+  search(value: string) {
+    this.filteredArticles.length = 0;
+    if (value == "") {
+      this.getListItem(this.currentSource);
+      return;
+    }
     for (let i = 0; i < this.articles.length; i++) {
-      if (this.articles[i].title.indexOf(event.target.value) != -1) {
+      let mark = this.articles[i].title.search(value);
+      if (mark != -1) {
         this.filteredArticles.push(this.articles[i]);
       }
     }
     this.searchArticles.emit(this.filteredArticles);
+    return;
   }
 
   constructor() { }
