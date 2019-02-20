@@ -9,7 +9,7 @@
     </mat-form-field>
     <div class="tools-panel-search-box">
       <mat-form-field class="example-full-width">
-        <input matInput placeholder="Search" />
+        <input matInput placeholder="Search" (keyup)="search($event)"/>
       </mat-form-field>
       <div>
         <button mat-stroked-button>Filter</button>

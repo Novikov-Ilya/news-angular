@@ -28,6 +28,10 @@ export class NewsListComponent implements OnInit {
     this.getNews(this.selectedSource);
   }
 
+  filterArticles(listArticles: any[]) {
+    this.allArticles = listArticles;
+  }
+
   constructor(private router: Router) { }
 
   ngOnInit() {

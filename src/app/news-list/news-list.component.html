@@ -1,4 +1,4 @@
-<app-tools (selectSource)="onChanged($event)"></app-tools>
+<app-tools [articles]="allArticles" (selectSource)="onChanged($event)" (searchArticles)="filterArticles($event)"></app-tools>
 <div class="news-list">
 <mat-card class="news-item" *ngFor="let article of allArticles">
   <div class="news-image">

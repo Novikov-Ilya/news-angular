@@ -1,4 +1,4 @@
-import { Component, OnInit, Output, EventEmitter } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter, Input } from '@angular/core';
 
 @Component({
   selector: 'app-tools',
@@ -11,6 +11,7 @@ export class ToolsComponent implements OnInit {
 
   public allSources:any[];
   public selectedLevel: any;
+  public filteredArticles: any[] = [];
 
   async getAllSources(sourcesUrl: string) {
     let response = await fetch(sourcesUrl);
@@ -20,9 +21,21 @@ export class ToolsComponent implements OnInit {
   }
 
   @Output() selectSource = new EventEmitter<string>();
+  @Output() searchArticles = new EventEmitter<any>();
+
+  @Input() articles: any[];
 
   getListItem(item: any) {
     this.selectSource.emit(item);
+  }
+
+  search(event: any) {
+    for (let i = 0; i < this.articles.length; i++) {
+      if (this.articles[i].title.indexOf(event.target.value) != -1) {
+        this.filteredArticles.push(this.articles[i]);
+      }
+    }
+    this.searchArticles.emit(this.filteredArticles);
   }
 
   constructor() { }
